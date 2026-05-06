@@ -24,7 +24,7 @@ with open("Salary_model.pkl", "rb") as f:
 
 @app.get("/")
 def home():
-    return {"message": "dhrumil joshi"}
+    return {"message": "ishika panchal"}
 
 @app.post("/predict")
 def predict(data: dict):
